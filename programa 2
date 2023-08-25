@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+
+     inteiro opcao
+
+      escreva("1-SACAR\n")
+      escreva("2-DEPOITAR\n")
+      escreva("3-EXTRATO\n")
+      escreva("4-EMPRESTIMO\n")
+      escreva("5-SALDO\n")
+      escreva("6-SAIR\n")
+      escreva("poor favor, digite o número da opção desejda-->")
+      leia(opcao)
+
+      se (opcao == 6) {
+      limpa()
+      escreva("1-SACAR\n")
+      escreva("2-DEPOITAR\n")
+      escreva("3-EXTRATO\n")
+      escreva("4-EMPRESTIMO\n")
+      escreva("5-SALDO\n")
+      escreva("6-SAIR\n")
+      escreva("poor favor, digite o número da opção desejda-->")
+      leia(opcao)
+
+         
+      }
+  }
+}
+
