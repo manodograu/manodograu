@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+    real n1,n2,n3,media
+    escreva("Aluno verifique se está reprovado ou aprovado")
+    escreva("Digite a 1º nota:\n")
+    leia(n1)
+    escreva("Digite a 2º nota:\n")
+    leia(n2)
+    escreva("Digite a 3º nota:\n")
+    leia(n3)
+    media = (n1+n2+n3)/3
+    escreva("A média do aluno é:",media)
+
+    se( media >= 6 ){
+      escreva("\nVocẽ está aprovado!")
+    }
+    senao {
+      escreva("\nVocẽ está reprovado!")
+    }
+  }
+}
