@@ -1,0 +1,42 @@
+programa {
+    funcao inicio() {
+    inteiro opcao
+    real valorDoSaque = 0
+
+      enquanto (opcao != 2000) {
+
+        escreva ("Seja Bem-vindo(A)\n")
+        escreva ("1- SACAR\n")
+        escreva ("2- DEPOSITAR\n")
+        escreva ("3- EXTRATO\n")
+        escreva ("4- EMPRESTIMO\n")
+        escreva ("5- SALDO\n")
+        escreva ("6- SAIR\n")
+        escreva ("Por favor, digite o número da opção desejada --> ")
+        leia (opcao)
+
+          escreva ("Seja Bem-vindo(A)\n")
+          escreva ("1- SACAR\n")
+          escreva ("2- DEPOSITAR\n")
+          escreva ("3- EXTRATO\n")
+          escreva ("4- EMPRESTIMO\n")
+          escreva ("5- SALDO\n")
+          escreva ("6- SAIR\n")
+          escreva ("Por favor, digite o número da opção desejada --> ")
+          leia (opcao)
+         
+      }
+
+          se (opcao == 6){
+          escreva ("Seja Bem-vindo(A)\n")
+          escreva ("1- SACAR\n")
+          escreva ("2- DEPOSITAR\n")
+          escreva ("3- EXTRATO\n")
+          escreva ("4- EMPRESTIMO\n")
+          escreva ("5- SALDO\n")
+          escreva ("6- SAIR\n")
+          escreva ("Por favor, digite o número da opção desejada --> ")
+          leia (opcao)
+          limpa ()
+
+      }
