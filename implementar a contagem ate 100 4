@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    
+    inteiro num = 0
+
+    enquanto (num <= 100){
+      escreva (num)
+      escreva ("\n")
+      num = num + 2
+     
+    }
+  }
+}
